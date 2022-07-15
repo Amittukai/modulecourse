@@ -12,9 +12,8 @@ import lombok.Setter;
 @NoArgsConstructor
 //@Document(collection="CourseDto") if needed
 public class CourseDto {
-    @NotNull
+
     public String courseDtoCode;
-    @NotNull
     public String courseDtoName;
     public String courseDtoObjective;
     public String courseDtoNumberSession;

@@ -14,7 +14,7 @@ public class ModuleDto{
 //    //this following variable remains hide or simply it is not the part of the table
 //    public static final String SEQUENCE_NAME="user_sequence";   //static i.e. no need  to create object
 //    //final i.e. constant
-    @Id
+//    @Id
     public long moduleDtoId;
 
     @NotNull

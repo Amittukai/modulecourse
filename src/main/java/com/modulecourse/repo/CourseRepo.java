@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface CourseRepo extends MongoRepository<Course,String> {
 
-    List<Course> findByCourseCode(String courseCode);
+    Course findByCourseCode(String courseCode);
 }

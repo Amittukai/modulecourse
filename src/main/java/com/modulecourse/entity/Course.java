@@ -14,9 +14,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 public class Course{
 
-    @NotNull
     public String courseCode;
-    @NotNull
     public String courseName;
     public String courseObjective;
     public String courseNumberSession;

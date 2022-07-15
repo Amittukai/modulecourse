@@ -18,10 +18,10 @@ public class ModuleController extends BaseController{
     @Autowired
     ModuleService moduleService;
 
-    @Autowired
-    SequenceGeneratorService sequenceGeneratorService;
+//    @Autowired
+//    SequenceGeneratorService sequenceGeneratorService;
 
-    @GetMapping
+    @GetMapping()
     public ResponseEntity getAllModule(){
         return sendSuccesResponse(moduleService.getAllModuleService());
     }
