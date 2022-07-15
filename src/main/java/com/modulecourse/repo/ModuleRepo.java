@@ -1,8 +1,7 @@
 package com.modulecourse.repo;
 
-import com.modulecourse.entiti.Module;
+import com.modulecourse.entity.Module;
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

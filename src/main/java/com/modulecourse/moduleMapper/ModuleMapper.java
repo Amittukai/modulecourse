@@ -1,6 +1,6 @@
 package com.modulecourse.moduleMapper;
 
-import com.modulecourse.entiti.Module;
+import com.modulecourse.entity.Module;
 import com.modulecourse.entitidto.ModuleDto;
 
 public class ModuleMapper {
@@ -25,9 +25,6 @@ public class ModuleMapper {
         moduleDto.setModuleName(module.getModuleName());
         moduleDto.setModuleCode(module.getModuleCode());
         moduleDto.setModuleObjective(module.getModuleObjective());
-//        moduleDto.setModuleName(module.moduleName);
-//        moduleDto.setModuleCode(module.moduleCode);
-//        moduleDto.setModuleObjective(module.moduleObjective());
         return moduleDto;
     }
 }

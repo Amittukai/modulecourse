@@ -1,6 +1,6 @@
 package com.modulecourse.service;
 
-import com.modulecourse.entiti.Module;
+import com.modulecourse.entity.Module;
 import com.modulecourse.entitidto.ModuleDto;
 import com.modulecourse.moduleMapper.ModuleMapper;
 import com.modulecourse.repo.ModuleRepo;

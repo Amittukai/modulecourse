@@ -1,12 +1,6 @@
 package com.modulecourse.mapper;
 
 
-import com.modulecourse.entiti.Module;
-import com.modulecourse.entitidto.ModuleDto;
-
-import java.util.List;
-
-
 public interface IModuleMapper {
 /*    Module convertTo(ModuleDto moduleDto);
 
