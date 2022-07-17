@@ -1,21 +1,21 @@
-package com.modulecourse.service;
-
-import com.modulecourse.entity.keyentity.KeySequence;
-import lombok.Getter;
-import lombok.Setter;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoOperations;
-import org.springframework.data.mongodb.core.query.Criteria;
-import org.springframework.data.mongodb.core.query.Query;
-import org.springframework.data.mongodb.core.query.Update;
-import org.springframework.stereotype.Service;
-
-import java.util.Objects;
-
-@Getter
-@Setter
-@Service
-public class SequenceGeneratorService {
+//package com.modulecourse.service;
+//
+//import com.modulecourse.entity.keyentity.KeySequence;
+//import lombok.Getter;
+//import lombok.Setter;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.data.mongodb.core.MongoOperations;
+//import org.springframework.data.mongodb.core.query.Criteria;
+//import org.springframework.data.mongodb.core.query.Query;
+//import org.springframework.data.mongodb.core.query.Update;
+//import org.springframework.stereotype.Service;
+//
+//import java.util.Objects;
+//
+//@Getter
+//@Setter
+//@Service
+//public class SequenceGeneratorService {
 //    @Autowired
 //    public MongoOperations mongoOperations;
 //
@@ -28,4 +28,4 @@ public class SequenceGeneratorService {
 //        KeySequence counter = mongoOperations.findAndModify(query,update,KeySequence.class);
 //        return !Objects.isNull(counter) ? counter.getSeq() : 1;
 //    }
-}
+//}

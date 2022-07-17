@@ -9,6 +9,7 @@ public class ModuleMapper {
         Module module = new Module();
         module.setModuleName(moduleDto.getModuleName());
         module.setModuleCode(moduleDto.getModuleCode());
+        module.setModuleNumberSession(moduleDto.getModuleNumberSession());
         module.setModuleObjective(moduleDto.getModuleObjective());
         return module;
     }
@@ -24,6 +25,7 @@ public class ModuleMapper {
         ModuleDto moduleDto = new ModuleDto();
         moduleDto.setModuleName(module.getModuleName());
         moduleDto.setModuleCode(module.getModuleCode());
+        moduleDto.setModuleNumberSession(module.getModuleNumberSession());
         moduleDto.setModuleObjective(module.getModuleObjective());
         return moduleDto;
     }

@@ -15,12 +15,12 @@ public class ModuleDto{
 //    public static final String SEQUENCE_NAME="user_sequence";   //static i.e. no need  to create object
 //    //final i.e. constant
 //    @Id
-    public long moduleDtoId;
+//    public long moduleId;
 
     @NotNull
-    public String moduleName;
-    @NotNull
     public String moduleCode;
+    @NotNull
+    public String moduleName;
     int moduleNumberSession;
     public String moduleObjective;
 

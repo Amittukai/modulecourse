@@ -1,5 +1,6 @@
 package com.modulecourse.entity;
 
+
 import com.sun.istack.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,20 +10,14 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Id;
 
-@Document(collection = "course")
-
+@Document//(collation = "module_association")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Course{
+public class ModuleAssociation{
 
-    @Id
-    @NotNull
+    public String id;
     public String courseCode;
-    @NotNull
-    public String courseName;
-    public String courseNumberSession;
-    public String courseObjective;
-
+    public String moduleCode;
 }

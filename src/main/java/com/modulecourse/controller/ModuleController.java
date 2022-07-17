@@ -2,7 +2,7 @@ package com.modulecourse.controller;
 
 import com.modulecourse.entitidto.ModuleDto;
 import com.modulecourse.service.ModuleService;
-import com.modulecourse.service.SequenceGeneratorService;
+//import com.modulecourse.service.SequenceGeneratorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

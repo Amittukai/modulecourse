@@ -21,19 +21,14 @@ public class ModuleService extends ModuleMapper {
     ModuleMapper moduleMapper;
     public List<Module> getAllModuleService(){
         List<Module> moduleList= moduleRepo.findAll();
-        //return moduleMapper.listModuleToListDto(moduleList);
         return  moduleList;
     }
     public ModuleDto addModuleService(ModuleDto moduleDto){
         Module module= moduleMapper.convertToModule(moduleDto);
-        //Module module= iModuleMapper.convertToModule(moduleDto);
         return moduleMapper.convertToDto(moduleRepo.save(module));
-        //return null;
-        //return moduleDto;
     }
     public boolean deleteModuleService(String moduleCode){
         Module module = moduleRepo.findByModuleCode(moduleCode).stream().findAny().orElse(null);
-
         return true;
     }
 }
